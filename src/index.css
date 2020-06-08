@@ -61,7 +61,7 @@ code {
   height: 22.2rem;
 }
 .board_image {
-  width: 8rem;
+  width: 14vh;
   margin: 0.2rem;
 }
 
@@ -71,7 +71,7 @@ code {
 }
 .token {
   position: absolute;
-  width: 6rem;
+  width: 10vh;
   z-index: 1;
   left: 1.2rem;
   top: 4rem;

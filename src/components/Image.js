@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 export default class Image extends Component {
     static propTypes = {
         src: PropTypes.string,
-        className: PropTypes.string
+        className: PropTypes.string,
+        style: PropTypes.object
     }
 
     static defaultProps = {
@@ -12,9 +13,9 @@ export default class Image extends Component {
     }
 
     render() {
-        const { src, className } = this.props;
+        const { src, className, style } = this.props;
         return (
-            <img src={ src } className={ className } alt="?" />
+            <img src={ src } className={ className } alt="?" style={ style } />
         )
     }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Deck from './components/Deck';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Board from './components/Board';
+import Player from './components/Player';
 
 export default class App extends React.Component {
   render () {
@@ -13,7 +13,7 @@ export default class App extends React.Component {
             <Deck />
           </Route>
           <Route path="/player">
-            <Board />
+            <Player />
           </Route>
         </Switch>
       </BrowserRouter>
