@@ -15,7 +15,7 @@ export default class Image extends Component {
     render() {
         const { src, className, style } = this.props;
         return (
-            <img src={ src } className={ className } alt="?" style={ style } />
+            <img src={ `${process.env.PUBLIC_URL}${src}` } className={ className } alt="?" style={ style } />
         )
     }
 }

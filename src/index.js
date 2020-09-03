@@ -3,10 +3,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import Player from './components/Player';
+import Deck from './components/Deck';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+        <Switch>
+          <Route path="/host">
+            <Deck />
+          </Route>
+          <Route path="/player">
+            <Player />
+          </Route>
+          <Route path="/">
+            <div className="start">
+
+              <Link to="/host" className="main-btn" >Anfitrion</Link>
+              <Link to="/player" className="main-btn">Jugador</Link>
+            </div>
+          </Route>
+        </Switch>
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

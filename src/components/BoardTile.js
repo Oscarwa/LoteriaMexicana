@@ -36,10 +36,10 @@ export default class BoardTile extends Component {
         }
         return (
             <div onClick={ fn } className="board_tile">
-                <Image src={ card.src } className="board_image" />
+                <Image src={ `${card.src}` } className="board_image" />
                 {
                     token ? 
-                        <Image src="LoteriaMexicana/img/token.png" className="token" style={ style } />
+                        <Image src={ `/img/token.PNG` } className="token" style={ style } />
                         : null
                 }
             </div>
