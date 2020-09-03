@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LoteriaMexicana/precache-manifest.f82c1f1d77b37b47e9cefacd7dde5832.js"
+  "/LoteriaMexicana/precache-manifest.f7ee6fc2eded237cc5df963513b31092.js"
 );
 
 self.addEventListener('message', (event) => {
