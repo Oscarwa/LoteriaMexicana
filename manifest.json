@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Loteria Mexicana",
+  "name": "Juego en linea de Loteria Mexicana",
   "icons": [
     {
       "src": "favicon.ico",
