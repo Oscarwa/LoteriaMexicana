@@ -18,10 +18,10 @@ export default class Card extends Component {
 
     render() {
         const { downside, skew, offset, id } = this.props;
-        let imgSrc = 'img/' + id + '.png';
+        let imgSrc = 'LoteriaMexicana/img/' + id + '.png';
         let style = {};
         if(downside) {
-            imgSrc = 'img/B.png';
+            imgSrc = 'LoteriaMexicana/img/B.png';
         } else {            
             style = {
                 transform: `rotate(${skew}deg)`,

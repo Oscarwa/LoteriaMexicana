@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Card from './Card';
-import Image from './Image';
 import BoardTile from './BoardTile';
 
 export default class Board extends Component {

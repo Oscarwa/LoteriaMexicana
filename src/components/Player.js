@@ -9,9 +9,8 @@ export default class Player extends Component {
     
     componentDidMount() {
         const cards = [];
-        const offset = 5;
         for(var i = 0; i < 54; i++) {
-            cards.push({id: i + 1, src: `img/${i + 1}.png` });
+            cards.push({id: i + 1, src: `LoteriaMexicana/img/${i + 1}.png` });
         }
         this.setState({ cards }, () => {
             this.generateBoard();

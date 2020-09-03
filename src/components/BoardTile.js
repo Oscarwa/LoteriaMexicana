@@ -39,7 +39,7 @@ export default class BoardTile extends Component {
                 <Image src={ card.src } className="board_image" />
                 {
                     token ? 
-                        <Image src="img/token.png" className="token" style={ style } />
+                        <Image src="LoteriaMexicana/img/token.png" className="token" style={ style } />
                         : null
                 }
             </div>
