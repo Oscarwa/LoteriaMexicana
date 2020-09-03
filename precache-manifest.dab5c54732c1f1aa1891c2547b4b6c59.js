@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6085d271518ea9003855779ff939772",
+    "revision": "d224d7209cddc51faf5ae90f86eec6be",
     "url": "/LoteriaMexicana/index.html"
   },
   {
