@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LoteriaMexicana/static/css/main.ed7fcce5.chunk.css",
-    "main.js": "/LoteriaMexicana/static/js/main.7ac03f68.chunk.js",
-    "main.js.map": "/LoteriaMexicana/static/js/main.7ac03f68.chunk.js.map",
+    "main.js": "/LoteriaMexicana/static/js/main.68e2deab.chunk.js",
+    "main.js.map": "/LoteriaMexicana/static/js/main.68e2deab.chunk.js.map",
     "runtime-main.js": "/LoteriaMexicana/static/js/runtime-main.d0983bbd.js",
     "runtime-main.js.map": "/LoteriaMexicana/static/js/runtime-main.d0983bbd.js.map",
     "static/js/2.7124acfb.chunk.js": "/LoteriaMexicana/static/js/2.7124acfb.chunk.js",
     "static/js/2.7124acfb.chunk.js.map": "/LoteriaMexicana/static/js/2.7124acfb.chunk.js.map",
     "index.html": "/LoteriaMexicana/index.html",
-    "precache-manifest.f7ee6fc2eded237cc5df963513b31092.js": "/LoteriaMexicana/precache-manifest.f7ee6fc2eded237cc5df963513b31092.js",
+    "precache-manifest.070120a435cad505a8ec5d079a6a138c.js": "/LoteriaMexicana/precache-manifest.070120a435cad505a8ec5d079a6a138c.js",
     "service-worker.js": "/LoteriaMexicana/service-worker.js",
     "static/css/main.ed7fcce5.chunk.css.map": "/LoteriaMexicana/static/css/main.ed7fcce5.chunk.css.map",
     "static/js/2.7124acfb.chunk.js.LICENSE.txt": "/LoteriaMexicana/static/js/2.7124acfb.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d0983bbd.js",
     "static/js/2.7124acfb.chunk.js",
     "static/css/main.ed7fcce5.chunk.css",
-    "static/js/main.7ac03f68.chunk.js"
+    "static/js/main.68e2deab.chunk.js"
   ]
 }
