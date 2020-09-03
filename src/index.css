@@ -7,6 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-btn {
+  padding: 5rem;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+  color: #c0c0c0;
+}
+.main-btn:hover {
+  color: #666;
+  background-color: #999;
+  transition: all 0.2s ease-in;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
