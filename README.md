@@ -1,2 +1,0 @@
-# LoteriaMexicana
-Mexican lotery shuffler
