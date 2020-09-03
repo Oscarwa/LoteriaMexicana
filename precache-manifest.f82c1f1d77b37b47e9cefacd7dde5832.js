@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f2304b946cf7245b8b34f6c1cbfc299",
+    "revision": "674b7e0c296a98fcafe430bffca6551b",
     "url": "/LoteriaMexicana/index.html"
   },
   {
-    "revision": "db05c3eac94a94db278f",
+    "revision": "51d9f0470ab2b67f0975",
     "url": "/LoteriaMexicana/static/css/main.ed7fcce5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LoteriaMexicana/static/js/2.705ac998.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db05c3eac94a94db278f",
-    "url": "/LoteriaMexicana/static/js/main.97b500f2.chunk.js"
+    "revision": "51d9f0470ab2b67f0975",
+    "url": "/LoteriaMexicana/static/js/main.08f13679.chunk.js"
   },
   {
     "revision": "14b3abc5d2e77d9537d9",
