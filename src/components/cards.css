@@ -1,0 +1,15 @@
+.lottery-card {
+    width: 50px;
+}
+
+.card-frame {
+    position: absolute;
+    border: 1px solid #BBB;
+    border-radius: 3px;
+    padding: 5px;
+    background: white;
+}
+
+.card-frame .lottery-card {
+    width: 75px;
+}
