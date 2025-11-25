@@ -6,7 +6,9 @@ export default class Player extends Component {
         cards: [],
         boardCards: []
     }
-    
+
+    boardRef = React.createRef();
+
     componentDidMount() {
         const cards = [];
         for(var i = 0; i < 54; i++) {
@@ -20,7 +22,7 @@ export default class Player extends Component {
     generateBoard = () => {
         const { cards } = this.state;
         let i = 0, j = 0, temp = null;
-        
+
         for (i = cards.length - 1; i > 0; i -= 1) {
             j = Math.floor(Math.random() * (i + 1))
             temp = cards[i]
@@ -29,12 +31,16 @@ export default class Player extends Component {
         }
         const boardCards = cards.slice(0, 16);
         this.setState({ boardCards });
+
+        if (this.boardRef.current) {
+            this.boardRef.current.restart();
+        }
     }
 
     render() {
         return (
             <div>
-                <Board boardCards={ this.state.boardCards } />
+                <Board ref={ this.boardRef } boardCards={ this.state.boardCards } />
                 <button onClick={ this.generateBoard }>Cambiar</button>
             </div>
         )
