@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.start {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center
 }
 
-.App-link {
-  color: #61dafb;
+.main-btn {
+  padding: 5rem;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  border: 2px solid silver;
+  border-radius: 10px;
+  color: silver
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-btn:hover {
+  color: #666;
+  background-color: #999;
+  transition: all .2s ease-in
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.deck {
+  transform: translateY(25vh)
+}
+
+.deck,
+.stack {
+  position: relative
+}
+
+.stack {
+  display: block
+}
+
+.deck .opened {
+  right: calc(50% + 10rem);
+  position: absolute
+}
+
+.deck .closed {
+  left: calc(50% + 10rem);
+  position: absolute
+}
+
+.deck .review {
+  transform: translateY(20rem);
+  position: absolute;
+  left: 20%
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid silver;
+  display: inline-block;
+  padding: 1rem;
+  position: absolute;
+  background-color: #fff
+}
+
+.card_image {
+  width: 12.5rem;
+  height: 20rem
+}
+
+.back {
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute
+}
+
+.back .card_image {
+  width: 14.8rem;
+  height: 22.2rem
+}
+
+.board_image {
+  width: 14vh;
+  margin: .2rem
+}
+
+.board_tile {
+  display: inline-block;
+  position: relative
+}
+
+.token {
+  position: absolute;
+  width: 10vh;
+  z-index: 1;
+  left: 1.2rem;
+  top: 4rem
+}
+
+
+.board {
+  text-align: center
 }
